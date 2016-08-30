@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="ZooFancy.css">
+
+	<title>The Xander Zoo</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+    		<!-- Brand and toggle get grouped for better mobile display -->
+    		<div class="navbar-header">
+    			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+     	  			<span class="sr-only">Toggle navigation</span>
+     	   			<span class="icon-bar"></span>
+     	   			<span class="icon-bar"></span>
+    	    		<span class="icon-bar"></span>
+    	  		</button>
+      		<a class="navbar-brand" href="#">Zoo Map</a>
+   	 		</div>
+
+    	<!-- Collect the nav links, forms, and other content for toggling -->
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      		<ul class="nav navbar-nav">
+       			 <li class="active"><a href="#">Animals <span class="sr-only">(current)</span></a></li>
+       	 		<li><a href="#">Zoo Staff</a></li>
+       	 		<li class="dropdown">
+          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Planning Your Zoo Day<span class="caret"></span></a>
+         	 			<ul class="dropdown-menu">
+           		 			<li><a href="#">Live Enteractions</a></li>
+          	 				<li><a href="#">Feedings</a></li>
+          		 			<li><a href="#">Showers and Baths</a></li>
+            				<li role="separator" class="divider"></li>
+           		 			<li><a href="#">National Geographic</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="#">Donar Websites</a></li>
+          				</ul>
+        		</li>
+      		</ul>
+      	<form class="navbar-form navbar-left">
+        	<div class="form-group">
+          		<input type="text" class="form-control" placeholder="Search">
+        	</div>
+        		<button type="submit" class="btn btn-default">Submit</button>
+      			</form>
+      				<ul class="nav navbar-nav navbar-right">
+       					<li><a href="#">Join the Zoo Club!</a></li>
+        				<li class="dropdown">
+          			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About the Zoo <span class="caret"></span></a>
+          			<ul class="dropdown-menu">
+            			<li><a href="#">Zoo Club Email</a></li>
+            			<li><a href="#">Zoo Club Special Events</a></li>
+            			<li><a href="#">Zoo Club Exclusive Events</a></li>
+            			<li role="separator" class="divider"></li>
+            			<li><a href="#">Donate to the Zoo!</a></li>
+          			</ul>
+       			 </li>
+      			</ul>
+    		</div><!-- /.navbar-collapse -->
+  		</div><!-- /.container-fluid -->
+	</nav>
+
+	<form class="form-inline">
+  		<div class="form-group">
+   			<label class="sr-only" for="exampleInputEmail3">Email address</label>
+    			<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+  		</div>
+ 		 <div class="form-group">
+    		<label class="sr-only" for="exampleInputPassword3">Password</label>
+   			 <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+ 		 </div>
+  		<div class="checkbox">
+    		<label id=rememberMe>
+      			<input type="checkbox"> Remember me
+    		</label>
+  		</div>
+  			<button type="submit" class="btn btn-success">Sign in</button>
+	</form>
+
+	<header>
+		<h1>
+			<strong>WELCOME TO THE XANDER ZOO!</strong>
+		</h1>
+	</header>
+
+	<hr>
+
+	<p><strong>Puppy kitty ipsum dolor sit good dog id tag kisses dog 		house
+		mouse finch stay parakeet bed small animals wag tail gimme five scooby
+		snacks. Spike swimming kitten catch yawn critters walk roll over
+		window critters kisses swimming tuxedo window tuxedo string water dog
+		fluffy. Tabby play treats window ID tag smooshy whiskers harness
+		fluffy fleas field small animals Spike kisses yawn run Scooby snacks.
+		Whiskers heel fur fetch biscuit kibble polydactyl nest dog house chow
+		aquatic parakeet throw kisses drool field drool walk treats leash.
+		Groom sit lick toys paws pet twine chow Spike park twine shake cage
+		catch furry kitty. Brush vaccine twine collar left paw furry fetch
+		field whiskers licks window stay Buddy furry drool Rover run fast bird
+		food birds dog house. Commands turtle dog house dragging scratch
+		behavior field small animals meow kitty play dead food bedding purr
+		heel yawn pet food shake litter box field. Run Fast fleas barky
+		bedding fetch chirp dinnertime canary bird food.</p></strong>
+
+	<table id=animalList class=".table-condensed table table-hover">
+		<tr class="active">
+			<th>Animal ID #</th>
+			<th>Animal Species</th>
+			<th>Animal Name</th>
+			<th>Habitat</th>
+			<th>Diet</th>
+			<th>Weight</th>
+			<th>Age</th>
+		</tr>
+
+		<tr>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Species</button></td>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Habitat</button></td>
+			<td><button type="button" class="btn btn-info">Diet</button></td>
+			<td>Test</td>
+			<td>Test</td>
+		</tr>
+
+		<tr>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Species</button></td>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Habitat</button></td>
+			<td><button type="button" class="btn btn-info">Diet</button></td>
+			<td>Test</td>
+			<td>Test</td>
+		</tr>
+
+		<tr>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Species</button></td>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Habitat</button></td>
+			<td><button type="button" class="btn btn-info">Diet</button></td>
+			<td>Test</td>
+			<td>Test</td>
+		</tr>
+
+		<tr>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Species</button></td>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Habitat</button></td>
+			<td><button type="button" class="btn btn-info">Diet</button></td>
+			<td>Test</td>
+			<td>Test</td>
+		</tr>
+
+		<tr>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Species</button></td>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Habitat</button></td>
+			<td><button type="button" class="btn btn-info">Diet</button></td>
+			<td>Test</td>
+			<td>Test</td>
+		</tr>
+
+		<tr>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Species</button></td>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Habitat</button></td>
+			<td><button type="button" class="btn btn-info">Diet</button></td>
+			<td>Test</td>
+			<td>Test</td>
+		</tr>
+
+		<tr>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Species</button></td>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Habitat</button></td>
+			<td><button type="button" class="btn btn-info">Diet</button></td>
+			<td>Test</td>
+			<td>Test</td>
+		</tr>
+
+		<tr>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Species</button></td>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Habitat</button></td>
+			<td><button type="button" class="btn btn-info">Diet</button></td>
+			<td>Test</td>
+			<td>Test</td>
+		</tr>
+
+		<tr>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Species</button></td>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Habitat</button></td>
+			<td><button type="button" class="btn btn-info">Diet</button></td>
+			<td>Test</td>
+			<td>Test</td>
+		</tr>
+
+		<tr>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Species</button></td>
+			<td>Test</td>
+			<td><button type="button" class="btn btn-info">Habitat</button></td>
+			<td><button type="button" class="btn btn-info">Diet</button></td>
+			<td>Test</td>
+			<td>Test</td>
+		</tr>
+	</table>
+
+	<img id="kitty"
+		src="C:\Users\admin\workspace\JDBCWorkspace\week4project\src\main\webapp\AnimalCrop.png">
+
+	<img id="macaw"
+		src="C:\Users\admin\workspace\JDBCWorkspace\week4project\src\main\webapp\Macaw.png">
+
+	<span id="caption1">Stick aquatic feeder teeth window sit Buddy
+		wagging.Tabby play treats window ID tag smooshy whiskers harness .</span>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<br>
+	<br>
+	<br>
+
+	<footer>
+		<address id=address>
+  		<strong>Alexandria Zoo, Inc.</strong><br>
+  		1355 Market Street<br>
+  		Alexandria, VA 12345<br>
+  		<abbr title="Phone">P:</abbr> (123) 456-7890
+		<br>
+  		<strong>Webmaster</strong><br>
+ 	 	<a href="mailto:#">Webmaster@xanderzoo.net</a>
+		</address>
+
+		<img id="zoologo"
+		src="C:\Users\admin\workspace\JDBCWorkspace\week4project\src\main\webapp\ZooLogo.png">
+
+		<!--
+    	you can substitue the span of reauth email for a input with the email and
+    	include the remember me checkbox
+    	-->
+    	
+    <br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+    	<div class="container">
+    		<div class="row">
+				<div class="col-md-4 col-md-offset-4">
+    				<div class="panel panel-default">
+			  			<div class="panel-heading">
+			    			<h3 class="panel-title">Employee LogIn</h3>
+			 			</div>
+			  			<div class="panel-body">
+			    			<form accept-charset="UTF-8" role="form">
+                    		<fieldset>
+			    	  		<div class="form-group">
+			    		   		 <input class="form-control" placeholder="E-mail" name="email" type="text">
+			    			</div>
+			    			<div class="form-group">
+			    				<input class="form-control" placeholder="Password" name="password" type="password" value="">
+			    			</div>
+			    			<div class="checkbox">
+			    	    		<label>
+			    	    			<input name="remember" type="checkbox" value="Remember Me"> Remember Me
+			    	    		</label>
+			    	   		 </div>
+			    				<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+			    			</fieldset>
+			      			</form>
+			    		</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+</body>
+</html>
